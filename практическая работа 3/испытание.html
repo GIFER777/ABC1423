@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">	
+<head>	
+	<link rel="stylesheet" href="style.css">	
+		<meta charset="utf-8">	
+</head>	
+<body>	
+	<main>	
+	<form>	
+<h1>Заявка на принятие в команду</h1>	
+	<label>		
+		Имя<input type="text" required name="username"
+	</label><br>	
+	<label>	
+		Почта<input required type="email">
+	</label><br>	
+	<label>	
+		Пароль<input type="password" required name="password"><br>
+	</label>
+	<label>	
+		Телефон<input required type="tel">
+	</label><br>	
+	<p>Пол</p>	
+		<label>	
+			<input type="radio" name="eduorg" value="man">	
+				Мужской	
+		</label>	
+		<label>	
+			<input type="radio" name="eduorg" value="woman">	
+				Женский	
+		</label><br>	
+		<label for="question">Имею скилл в:</label>	
+							<input type="checkbox" name="eduorg" value="yes">	
+				CS	
+		</label>	
+		<label>	
+			<input type="checkbox" name="eduorg" value="yes">
+				Dota	
+		</label>	
+		<label>	
+			<input disabled type="checkbox" name="eduorg" value="yes">	
+				OverWatch	
+		</label>
+		<label>	
+		<p>Кратко о себе</p>	
+			<textarea cols = 15 rows = 5></textarea>	
+		</label><br>	
+		<label>	
+			Прикрепи фото<input disabled type="file" name="profilepic">	
+		</label><br>	
+		<label>
+			<p>Играешь на своём компе</p>	
+				<select name="Играешь на своём компе">	
+				<option value=1>Да, только из дома</option>	
+				<option value=2>Нет, могу на вашем</option>	
+				<option selected value=1>Да, ноут могу играть откуда угодно</option>	
+				</select>	
+		</label><br>	
+		<label>	
+			<input type="submit" value="Отправить">	
+		</label><br>	
+		<label>	
+			<input type="reset" value="Сбросить">	
+		</label>	
+		</form>	
+		</main>	
+		</body>

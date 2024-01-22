@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>		
+		<meta charset="utf-8">	
+		<meta name="keywords" content="вёрстка, HTML, CSS, обучение">	
+		<meta name="description" content="Мой первый сайт">	
+		<title>
+			Сайт ученика группы БАС-23.161 Токмина М.Р.
+		</title>
+	</head>	
+	<body>	
+		<header>	
+			<h1> Сайт ученика группы БАС-23.161 Токмин М.Р. </h1>
+		</header>	
+<nav>	
+	<a href = "https://natk.ru/">НАТК</a>	
+	<a href = "form.html">Анкета</a>	
+	<a href = "https://natk.ru/" target="_blank"><img src="button.png"/></a>	
+</nav>
+		<main>	
+			<section>	
+				<h2>О себе</h2>	
+					<p>Всем привет! Добро пожаловать на мой
+первый сайт. Здесь мы запишем текст параграфа, о том как же невероятно интересно
+изучать основы веба</p>
+			</section>
+			<section>	
+				<h2>Мои навыки</h2>	
+				<ol type=a start=5>	
+				<li>Знание HTML</li>	
+				<li>Знание CSS</li>	
+				<li>Знание JS</li>	
+				<li>Знание Python</li>	
+				<li>Знание C++</li>
+			</section>	
+			<section>	
+				<dl>	
+					<dt>Жажда</dt>	
+					<dd>физиологическое ощущение, относящееся к разряду общих чувств и служащее сигналом того, что организм нуждается в воде. Решением является употребление H<sub>2</sub>O</dd>	
+				</dl>	
+					<pre>	
+_
+\`*-.
+) _`-.
+. : `. .
+: _ ' \
+; *` _. `*-._
+`-.-' `-.
+; ` `.
+:. . \
+. \ . : .-' .
+' `+.; ; ' :
+: ' | ; ;-.
+; ' : :`-: _.`* ;
+.*' / .*' ; .*`- +' `*'
+`*-* `*-* `*-*'
+					</pre>	
+				<p>Тег <code>&lt;ul&gt;</code> — это неупорядоченный список.</p>	
+					<pre>	
+						<code>	
+						if (a > b) { // Некий пример
+						console.log('Hello!'); // абстрактного JS кода }
+						</code>
+					</pre>	
+				<p>В спецификации говорится: <q cite=”https://www.w3.org/TR/html52/”>The q element represents some phrasing content quoted from another source.</q></p>	
+				<p>Как говорил <cite>Артур Гастингс</cite>	
+				<q>Это не то, чего я ожидал от будущего</q>	
+					<blockquote>	
+					<p>Боюсь, наше <span>время</span> подошло к <span>концу</span></p>	
+					<cite>Джек Уортинг</cite>	
+					</blockquote>	
+			</section>	
+		</main>
+				<footer>	
+					<p>Токмин М.А.</p>	
+					</footer>
+	</body> 
+	</main>	
+	

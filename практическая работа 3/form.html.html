@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<meta charset="utf-8">	
+		<meta name="keywords" content="вёрстка, HTML, CSS, обучение">	
+		<meta name="description" content="Мой первый сайт">	
+		<title>
+			Сайт ученика группы БАС-23.161 Токмина М.Р.
+		</title>
+	</head>	
+	<body>	
+		<header>	
+			<h1> Сайт ученика группы БАС-23.161 Токмин М.Р. </h1>
+		</header>	
+<nav>	
+	<a href = "https://natk.ru/">НАТК</a>	
+	<a href = "form.html">Анкета</a>	
+</nav>	
+<form action="#"method="get" enctype="multipart/form-data">	
+	<label>	
+	Ваше имя<input type="text"name="username">	
+	</label><br>
+<label for="user-field-id">Фамилия</label>	
+	<input id="user-field-id" type="text" name="password"><br>
+Введите пароль<input type="password" name="password"><br>
+	</label>	
+	<label>
+<textarea cols = 75 rows = 25> Пару слов о себе </textarea>
+	</label><br>
+	
+<label for="question"> Вы студент?</label><br>
+	<input type="checkbox" checked id ="question">
+<p>Где ты учился?</p>
+	<label>
+<input type="radio" name="eduorg" value="school">
+	Школа
+<input type="radio" name="eduorg" value="college">
+	Колледж
+<input type="radio" name="eduorg" value="university">
+	Университет
+</label><br>	
+	<label>
+<select name="Ваш год рождения?">
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>	
+	</label><br>	
+	<label>	
+		<input type="file hidden" >	
+	<label><br>	
+	<label>
+		Добавьте ваше фото<input type="file" name="profilepic">	
+	</label>	
+	<label><br>	
+		Дата окончания обучения<input type="date">		
+	</label><br>	
+	<label>	
+		Твой номер телефона<input type="tel" placeholder="+7-(***)-**-**">	
+	</label><br>	
+	<label>
+		Ваша личная почта<input placeholder="mail54@mail.ru" type="email">	
+	</label><br>	
+	<label>
+		Ваш любимый сайт<input type="url">	
+	</label><br>	
+	<label>	
+		<input type="reset" value="Сбросить">	
+		</label><br>	
+		<input type="submit" value="Отправить">
+</form>	
+</body>
