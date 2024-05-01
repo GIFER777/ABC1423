@@ -1,0 +1,15 @@
+let age =16;
+let ageGroup;
+if(age<=11) {
+    let ageGroup='Дети';
+}
+if(age>11 && age<=15) {
+    let ageGroup='Юниоры';
+}
+if(age>15 && age<=18) {
+    let ageGroup='Молодежь';
+}
+if(age>18) {
+    let ageGroup='Взрослые';
+}
+console.log(ageGroup);

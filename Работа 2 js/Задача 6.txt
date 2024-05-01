@@ -1,0 +1,21 @@
+let time = 15;
+let goToDairy=false;
+let goToStore=false;
+let goToMarket=false;
+if((time>=8 && time<13) || (time>14 && time<19)) {
+    let goToDairy=true;
+    console.log("Время ", time, "на фабрику");
+}
+if(goToDairy==false) {
+    if((time>=9 && time<14) || (time>15 && time<17)) {
+        let goToStore=true;
+        console.log("Время ", time, "в магазин");
+    }
+    if(goToStore==false) {
+        if(time>=7 && time<20)
+        {
+            let goToMarket=true;
+            console.log("Время ", time, "на рынок");
+        }       
+    }
+}

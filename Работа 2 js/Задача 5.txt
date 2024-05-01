@@ -1,0 +1,19 @@
+let price =4000;
+let discountedPrice;
+let percent;
+if(price<1000) {
+    console.log(price);
+}
+if(price>=1000 &&price<3000) {
+    let percent = (price * 5) / 100;
+    let discountedPrice = price - percent;    
+}
+if(price>=3000 && price<5000) {
+    let percent = (price * 10) / 100;
+    let discountedPrice = price - percent;
+}
+if(price>5000) {
+    let percent = (price * 15) / 100;
+    let discountedPrice = price - percent;
+}
+console.log(discountedPrice);

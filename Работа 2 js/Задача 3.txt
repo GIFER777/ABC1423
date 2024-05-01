@@ -1,0 +1,12 @@
+let weight =52; 
+let recommendation;
+if(weight<48) {
+   let recommendation='Пора перекусить';
+}
+if(weight>=48 && weight<=54) {
+   let recommendation='вес в норме';
+}
+if(weight>54) {
+    let recommendation='Пора на тренировку';
+}
+console.log(recommendation);
