@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="utf-8">	
+		<meta name="keywords" content="Сравнительный анализ библиотек компьютерного зрения">
+		<meta name="description" content="Сравнительный анализ библиотек компьютерного зрения">
+		<title>	
+			Сравнительный анализ библиотек компьютерного зрения
+		</title>
+ </head>
+<body>
+	<header>
+	<h1> Сравнительный анализ библиотек компьютерного зрения </h1>
+	</header>
+	<main>
+	</main>
+	<footer>
+	<p>@Токмин М.Р. </p>
+	</footer>
+	</body>
+	</html>

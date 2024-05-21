@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+        <meta name="keywords" content="верстка, HTML, CSS, обучение">
+	    <meta name="description" content="Мой первый сайт"
+	    <title>
+		  Cтудент группы БАС-23.161 Федорченко И. С.
+	    </title>
+ </head>
+<body>
+      <header> 
+	  <h1> Cтудент группы БАС-23.161 Федорченко И. С. </h1>
+	  <header>
+	  <nav>
+	  <a href = "https://natk.ru/">НАТК</a>
+	  <a href="form.html" download>Анкета</a>
+	  <a href = "https://natk.ru/ target="_blank"><img src="button.png"/></a>
+	  </nav>
+	  </header>
+	  <main>
+	  <section>
+	  <h2> О Себе </h2>
+	  <p> Всем привет! Добро пожаловать на мой первый сайт. Здесь я запишу текст параграфа, 
+	  о том как же интересно изучать основы веба</p>
+	  </section>
+	  <section>
+	  <h2> Мои навыки</h2>
+	  <ol type=a start=5>
+	  <li> значение html</li>
+	  <li> значение CSS</li>
+	  <li> значение JS </li>
+	  <li> значение Python</li>
+	  <li> значение C++</li>
+	  </ol>
+	  </section>
+	  <dt> Физика </h4></dt>
+	  <dd> Основаня наука естествознания о свойствах и строении материи, о формах её движения и изменения, 
+	  об общих закономерностях вляений неорганической природы. <span> Физ <sub> и </sub> ка </span> . </dd>
+	  <pre>
+
+
+_
+\`*-.
+) _`-.
+. : `. .
+: _ ' \
+; *` _. `*-._
+`-.-' `-.
+; ` `.
+:. . \
+. \ . : .-' .
+' `+.; ; ' :
+: ' | ; ;-.
+; ' : :`-: _.`* ;
+.*' / .*' ; .*`- +' `*'
+`*-* `*-* `*-*
+
+ <p>тег<code>&lt;ohf3</code> это неупорядоченный список. </p>
+ <code> 
+ if (a > b) { // Пример console.log('Hello!'): // абстрактного JS кода
+ </code>
+        </pre>
+  <p><code>КОT</code></p>
+  <qcite"https://html.spec.whatwq.org/multipage/named-characters.html/"> The q element represents some phasing content qooted from</q>
+   <blockquote>
+   <p> Волк не волк когда не ворк </p>
+   <cite> Альберт Энштейн</cite>
+   </main>
+   <footer>
+   <p>@Федорченко И.С. </p>
+   </footer>
+   </body>
+   </html>
